@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/api/juego';
+const API_URL = 'https://carrera-caballos-back.onrender.com/api/juego';
 
 // Crear un nuevo jugador
 export const crearJugador = async (nombrePersona) => {
